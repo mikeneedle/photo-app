@@ -17,8 +17,6 @@ gem 'twitter-bootstrap-rails'
 gem 'jquery-rails'
 #another UI gem added
 gem 'devise-bootstrap-views'
-#stock info gem
-gem 'stock_quote'
 #gem for font awesome cool images and shit
 gem 'font-awesome-rails'
 # Use Puma as the app server
@@ -51,7 +49,6 @@ group :development, :test do
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
   # Use sqlite3 as the database for Active Record testing and development only
-gem 'sqlite3'
 end
 
 group :development do
