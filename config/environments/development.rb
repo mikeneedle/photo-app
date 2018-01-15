@@ -9,6 +9,10 @@ Rails.application.configure do
   # Do not eager load code on boot.
   config.eager_load = false
 
+  #stuff for sendgrid mailer
+  config.action_mailer.delivery_method = :test
+  config.action_mailer.default_url_options = { :host => 'https://bdc6c061611f46cd949c4b28cde60e78.vfs.cloud9.us-east-2.amazonaws.com'}
+
   # Show full error reports.
   config.consider_all_requests_local = true
 
