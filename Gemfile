@@ -9,6 +9,8 @@ end
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.4'
 
+#stripe gem
+gem 'stripe'
 #use devise for authentication
 gem 'devise'
 #another gem added for some reason? releated to look and feel added
